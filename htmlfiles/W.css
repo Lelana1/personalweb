@@ -1,3 +1,32 @@
 body {
-    background-color: indigo;
+    background-color: rgb(168, 128, 233);
+}
+
+.container {
+    margin-left: auto;
+    margin-left: auto;
+    width: 1024;
+}
+header {
+    background-color: lightblue;
+    height: 110px;
+    width: 1024px;
+
+}
+
+nav {
+    background-color: rgba(32, 178, 171, 0.438);
+    height: 40px;
+    width: 1024px;
+}
+
+main {
+    background-color: rgb(168, 128, 233);
+    height: 400px;
+    width: 1024px;
+}
+footer {
+    background-color: rgb(226, 176, 222);
+    height: 100px;
+    width: 1024px;
 }
