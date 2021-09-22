@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(168, 128, 233);
+    background-color:lavender;
 }
 
 .container {
@@ -8,25 +8,31 @@ body {
     width: 1024;
 }
 header {
-    background-color: lightblue;
+    background-color: #92ebff;
     height: 110px;
     width: 1024px;
 
 }
 
 nav {
-    background-color: rgba(32, 178, 171, 0.438);
+    background-color: rgba(104, 192, 250, 0.801);
     height: 40px;
     width: 1024px;
 }
 
 main {
-    background-color: rgb(168, 128, 233);
+    background-color: #388087;
     height: 400px;
     width: 1024px;
 }
 footer {
-    background-color: rgb(226, 176, 222);
+    background-color: #f381b6;
     height: 100px;
     width: 1024px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024;
 }
