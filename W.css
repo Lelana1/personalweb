@@ -8,6 +8,31 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+ul {
+    list-style-type: none;
+    margin: 0%;
+    width: 25%;
+    background-color: gray;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+li a {
+    display: block;
+    color: green;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: honeydew;
+    color: lightseagreen;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: lightyellow;
+}
 
 .container {
     margin-left: auto;
