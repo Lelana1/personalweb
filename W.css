@@ -3,10 +3,12 @@
 }
 body {
     margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  
 }
-main {
+.Hero-section {
     background: url("images/1632298189040.jpg") no-repeat;
+    background-color: #576868;
     background-position: center;
     background-size: contain;
     height: 1000px;
@@ -14,7 +16,7 @@ main {
 }
 
 nav {
-    background-color: #b7410e;
+    background-color: #6b9797;
      height: 55px;
 }
 ul {
@@ -29,7 +31,7 @@ ul li {
 }   
 ul li a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #fffd
 }
 h2 {
     position: absolute;
@@ -40,7 +42,7 @@ h2 {
 .about-me {
     text-decoration: none;
     color: white;
-    background-color: #85dffa;
+    background-color: #6b9797;
     padding: 5px;
     border-radius: 5px;
     position: absolute;
@@ -48,6 +50,62 @@ h2 {
     left: 35%;
     display: flex;
     justify-content: center;
+}
+.About-section {
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.About-me-right {
+    display: flex;
+    background-color: #F5F5F5;
+    text-align: center;
+    
+
+}
+.About-me-left {
+    background-color: #6b9797;
+    color: honeydew;
+    text-align: center;
+}
+.video-link {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: rgb(252, 193, 193);
+}    
+.imagesblock {
+display: flex;
+justify-content: space-evenly;
+
+}
+#Python {
+    width: 20%;
+}
+#CSS {
+    width: 20%;
+}
+#Git {
+    width: 20%;
+}
+#HTML {
+    width: 20%;
+}
+#Javascript {
+    width: 20%;
+}
+#SQL {
+    width: 20%;
+}
+.Projects {
+    text-align: center;
+    background-color: #cdd6d6;
+    
+}
+.Quote {
+    margin: 0;
+    color: black
+    font-size: 2rem;
 }
 /* ul {
     list-style-type: none;
