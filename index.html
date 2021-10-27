@@ -19,13 +19,13 @@
 
 
 <nav>
-    <Ul>
+    <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About me</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
         
-    </Ul>
+    </ul>
 
 
 </nav>
@@ -36,7 +36,7 @@
            Greetings &#128406 My name is Wisani Matobela. <br>
            <span>I identify as greatness in the making.</span>
         </h2>
-        <a class="about-me">find out more</a>
+        <a href = "#about"class="about-me">find out more</a>
     </div>
     <div id="about" class="About-section">
     <div class="About-me-left">
@@ -84,11 +84,16 @@
         <img src="/images/work-in-progress.png" alt="work-in-progress">
     </div>
     <div id="contact" class="contacts">
-        <form method="POST">
-            <label for="Email">Email</label> 
-            <input type="email" placeholder="email"required> <br>
-            <label for="Message">Message</label> 
-            <textarea name="Message" placeholder="Message" cols="50" rows="20"></textarea> <br>
+        <form method="POST"> 
+            <div class="email-field">
+                <label for="Email">Email</label> 
+                <input type="email" placeholder="email"required> <br>
+            </div>
+            <div class ="message-field">
+                <label for="Message">Message</label> 
+                <textarea name="Message" placeholder="Message" cols="50" rows="20"></textarea> <br>
+            </div>
+
             <input type="submit" value="Enter"> 
         </form>
         <div class="contact-details">
