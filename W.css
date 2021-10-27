@@ -76,6 +76,9 @@ h2 {
     color: honeydew;
     text-align: center;
 }
+.about-me-paragraph {
+    max-width: 1500px;
+}
 .video-link {
     text-decoration: none;
     font-size: 1.1rem;
