@@ -127,7 +127,7 @@ h4{
     font-size: 18px;
     margin-bottom: 45px;
 }
-button {
+.resume {
     background-color:  #f9004d;
     color: white;
     text-decoration: none;
@@ -137,7 +137,7 @@ button {
     border-radius: 30px;
     transition: .4s;
 }
-button:hover{
+.resume:hover{
     background-color: transparent;
     border: 2px solid #f9004d;
     cursor: pointer;
@@ -248,12 +248,16 @@ h5 {
 #contact-icon{
     margin-right: 12px;
 }
-.HamBurger-menu{
+.button-list{ 
+    display: none;
+}
+
+.close{
     display: none;
 }
 
 @media (max-width: 705px){   
-    .HamBurger-menu{
+    .button-list{
         display: block;
     }
     .logo{
@@ -262,7 +266,7 @@ h5 {
     .content h1{
         font-size: 50px;
     }
-    .nav-bar-item{
+    .nav-bar-list{
         display: none;
     }
     .about-text h2{
