@@ -317,7 +317,7 @@
       background-color: white;
     }
     .nav-bar-list {
-      position: fixed;
+      position: sticky;
       left: -100%;
       top: 60px;
       flex-direction: column;
