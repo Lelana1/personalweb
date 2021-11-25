@@ -28,6 +28,14 @@
 span {
     color:cornflowerblue;
 }
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+  }
 
 nav ul{
     display: flex;
