@@ -1,138 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Website</title>
     <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/eb2661c1b8.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
-    <!-- <script src="myscript.js"></script> -->
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/eb2661c1b8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="myscripts.js"></script>
+  </head>
+  <body>
     <div class="container">
-        <div class="header">
-            <a class="logo-header" href="/">
-                <h2 class="logo">Portfo<span>lio</span></h2>
-            </a>
-            
-            <nav>
-                <ul class="nav-bar-list option-list" id="nav-bar-list">
-                    <li><a class="nav-bar-item" href="#"><img id="closed" class="close close-list" src="images/close.svg"/></a></li>
-                    <li><a class="nav-bar-item" href="#home">Home</a></li>
-                    <li><a class="nav-bar-item" href="#about">About</a></li>
-                    <li><a class="nav-bar-item" href="#skills">Skills</a></li>
-                    <li><a class="nav-bar-item" href="#contact">Contact</a></li>
-                </ul>
-                <a href="#" id="HamBurger-menu" class="hide-desktop">
+      <div class="header">
+        <a class="logo-header" href="/">
+          <h2 class="logo">Portfo<span>lio</span></h2>
+        </a>
+
+        <nav id="navbar">
+          <!-- <ul class="nav-bar-list-option-list" id="nav-bar-list"> -->
+          <ul class="nav-bar-list">
+            <li>
+              <a class="nav-bar-item" href="#"
+                ><img
+                  id="closed"
+                  class="close close-list"
+                  src="images/close.svg"
+              /></a>
+            </li>
+            <li><a class="nav-bar-item" href="#home">Home</a></li>
+            <li><a class="nav-bar-item" href="#about">About</a></li>
+            <li><a class="nav-bar-item" href="#skills">Skills</a></li>
+            <li><a class="nav-bar-item" href="#contact">Contact</a></li>
+          </ul>
+          <!-- <a href="#" id="HamBurger-menu" class="hide-desktop">
                     <img class="HamBurger-menu button-list" alt="HamBurger" src="images/HamBurger.svg"/>
 
-                </a>
-            </nav>
-        </div>
+                </a> -->
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
 
-        <div class="content" id="home">
-            <h4>Hello &#x1F590;, My name is</h4>
-            <h1>Wisani <span>Matobela</span></h1>
-            <h3>And I'm an aspiring Web developer.</h3>
-        </div>
+      <div class="content" id="home">
+        <h4>Hello &#x1F590;, My name is</h4>
+        <h1>Wisani <span>Matobela</span></h1>
+        <h3>And I'm an aspiring Web developer.</h3>
+      </div>
 
-        <section class="about" id="about">
-            <div class="main spacing">
-                <img src="images/1637502716333.jpg" alt="Wisani"/>
-                <div class="about-text">
-                    <h2>About Me</h2>
-                    <h5>Developer</h5>
-                    <p>I started the Journey with Umuzi less than a year ago and during the past few months i have amassed skills in 
-                        HTML, CSS, JavaScript as well as SQL.</p>
-                    <a class="resume" href="Matobela W.pdf" target="_blank" >Resume</a>
-                    <!-- <a class="resume" href="" target="_blank">Resume</a> -->
-                </div>
-            </div>
-        </section>
-
-        <div class="skills" id="skills">
-            <div class="title">
-                <h2>My skills</h2>
-            </div>
-            <div class="box">
-                <div class="card">
-                    <i class="fab fa-js"></i>
-                    <h5>JavaScript </h5>
-                    <div class="pra">
-                        <p>Within the time frame i have learned that every website should be built with two primary goals:
-                            Firstly, It needs to work across all devices. Secondly , it needs to be as fast as possible.
-                        </p>
-                        <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <i class="fa fa-css3"></i>
-                    <h5>CSS</h5>
-                    <div class="pra">
-                        <p>Within the time frame i have learned that every website should be built with two primary goals:
-                            Firstly, It needs to work across all devices. Secondly , it needs to be as fast as possible.
-                        </p>
-                        <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <i class="fa fa-html5"></i>
-                    <h5>HTML</h5>
-                    <div class="pra">
-                        <p>Within the time frame i have learned that every website should be built with two primary goals:
-                            Firstly, It needs to work across all devices. Secondly , it needs to be as fast as possible.
-                        </p>
-                        <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
+      <section class="about" id="about">
+        <div class="main spacing">
+          <img src="images/1637502716333.jpg" alt="Wisani" />
+          <div class="about-text">
+            <h2>About Me</h2>
+            <h5>Developer</h5>
+            <p>
+              I started the Journey with Umuzi less than a year ago and during
+              the past few months i have amassed skills in HTML, CSS, JavaScript
+              as well as SQL.
+            </p>
+            <a class="resume" href="Matobela W.pdf" target="_blank">Resume</a>
+            <!-- <a class="resume" href="" target="_blank">Resume</a> -->
+          </div>
         </div>
+      </section>
 
-        <div class="contact-me" id="contact">
-            <a class="logo-header" href="/">
-                <h2 class="logo">Portfo<span>lio</span></h2>
-            </a>
-            <p>Contact me:</p>
-            <img class="contact-image" src="images/contact.svg" alt="contact-background" />
-            <div class="contact-me__icons">
-                <a href="mailto:matobelw@gmail.com">
-                    <i id="contact-icon" style="font-size:35px;color:#191919;" class="fa fa-envelope"></i>
-                </a>
-                <a href="https://github.com/Lelana1">
-                    <i id="contact-icon" style="font-size:35px;color:#191919;" class="fa fa-github"></i>
-                </a>
-                <a href="tel:0818845583">
-                    <i id="contact-icon" style="font-size:35px;color:#191919;" class="fa fa-address-book"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/wisani-matobela-59b798204/">
-                    <i id="contact-icon" style="font-size:35px;color:#191919;" class="fa fa-linkedin"></i>
-                </a>
-            </div>
+      <div class="skills" id="skills">
+        <div class="title">
+          <h2>My skills</h2>
         </div>
+        <div class="box">
+          <div class="card">
+            <i class="fab fa-js"></i>
+            <h5>JavaScript</h5>
+            <div class="pra">
+              <p>
+                Within the time frame i have learned that every website should
+                be built with two primary goals: Firstly, It needs to work
+                across all devices. Secondly , it needs to be as fast as
+                possible.
+              </p>
+              <p style="text-align: center">
+                <a class="button" href="#">Read More</a>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <i class="fa fa-css3"></i>
+            <h5>CSS</h5>
+            <div class="pra">
+              <p>
+                Within the time frame i have learned that every website should
+                be built with two primary goals: Firstly, It needs to work
+                across all devices. Secondly , it needs to be as fast as
+                possible.
+              </p>
+              <p style="text-align: center">
+                <a class="button" href="#">Read More</a>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <i class="fa fa-html5"></i>
+            <h5>HTML</h5>
+            <div class="pra">
+              <p>
+                Within the time frame i have learned that every website should
+                be built with two primary goals: Firstly, It needs to work
+                across all devices. Secondly , it needs to be as fast as
+                possible.
+              </p>
+              <p style="text-align: center">
+                <a class="button" href="#">Read More</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-me" id="contact">
+        <a class="logo-header" href="/">
+          <h2 class="logo">Portfo<span>lio</span></h2>
+        </a>
+        <p>Contact me:</p>
+        <img
+          class="contact-image"
+          src="images/contact.svg"
+          alt="contact-background"
+        />
+        <div class="contact-me__icons">
+          <a href="mailto:matobelw@gmail.com">
+            <i
+              id="contact-icon"
+              style="font-size: 35px; color: #191919"
+              class="fa fa-envelope"
+            ></i>
+          </a>
+          <a href="https://github.com/Lelana1">
+            <i
+              id="contact-icon"
+              style="font-size: 35px; color: #191919"
+              class="fa fa-github"
+            ></i>
+          </a>
+          <a href="tel:0818845583">
+            <i
+              id="contact-icon"
+              style="font-size: 35px; color: #191919"
+              class="fa fa-address-book"
+            ></i>
+          </a>
+          <a href="https://www.linkedin.com/in/wisani-matobela-59b798204/">
+            <i
+              id="contact-icon"
+              style="font-size: 35px; color: #191919"
+              class="fa fa-linkedin"
+            ></i>
+          </a>
+        </div>
+      </div>
     </div>
-    <!-- <script>
-
-        var menu = document.getElementById("HamBurger-menu");
-        var closed = document.getElementById("closed");
-        var listNavigation  = document.getElementById("nav-bar-list");
-
-        menu.addEventListener("click", (event) =>{
-            listNavigation.style.display = "block";
-            closed.style.display = "none";
-            menu.style.display = "none";
-            event.preventDefault();
-        });
-        
-    </script> -->
-    <script async src="myscript.js"></script>
-</body>
+    <script async src="myscripts.js"></script>
+  </body>
 </html>
