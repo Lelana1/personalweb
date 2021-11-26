@@ -5,6 +5,17 @@
     box-sizing: border-box;
     text-decoration: none;
   }
+  #navbar {
+      overflow: hidden;
+
+  }
+  #navbar a {
+      float:left;
+      display:block;
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+  }
   .sticky {
     position: fixed;
     top: 0;
