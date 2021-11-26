@@ -30,6 +30,10 @@
     max-width: 85%;
     margin: 0 auto;
   }
+  .header {
+    position: fixed;
+    width: 100%;
+  }
   .container .header {
     display: flex;
     align-items: center;
