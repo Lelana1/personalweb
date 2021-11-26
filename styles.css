@@ -31,7 +31,7 @@
     margin: 0 auto;
   }
   .header {
-    position: fixed;
+    position:relative;
     width: 100%;
   }
   .container .header {
